@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+hr {
+  margin: 10px auto;
+}
+
+.side_bar {
+  float: left;
+  width: 15%;
+  height: 700px;
+  background: black;
+  color: #696a67;
+  position: relative;
+}
+
+.main {
+  float: left;
+  width: 85%;
+  height: 700px;
+  background: yellow;
+}
+
+.navi div {
+  margin: 32px 0 ;
+}
+
+.side_items a, .bottom_items a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #696a67;
+}
+
+#selected {
+  color: #1db954;
+}
+
+.side_items a:hover, .bottom_items a:hover {
+  color: white;
+}
+
+.side_items a:active, .bottom_items a:active, .bottom_items:last-child a:active {
+  color: #1db954;
+}
+
+.side_items a i, .bottom_items a i {
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 125px;
+}
+
+.playlist h3, .playlist div {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.playlist div {
+  margin: 10px 20px;
+}
+
+.side_bar_bottom_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+.side_bar_bottom {
+  width: 80%;
+}
+
+.bottom_items a {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.bottom_items:last-child a {
+  color: white;
+}
